@@ -1,0 +1,17 @@
+#include<stdio.h>
+void diff();
+int main()
+{
+	diff();
+	return 0;
+}
+void diff()
+{
+	int a,b,c,dif;
+	printf("Enter value of a,b,c of Quadratic equation = ");
+	scanf("%d %d %d",&a,&b,&c);
+	printf("\n%dx^2+%dx+%d=0",a,b,c);
+	dif=2*a;
+	printf("\n After differentiation derivative of Quadratic equation = ");
+	printf("%dx+%d",dif,b);
+}
