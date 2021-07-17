@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int n;
+	printf("Enter any number=");
+	scanf("%d",&n);
+	
+	//code to find whether number is positive or negtaive
+	
+	if(n>0)
+	{
+		printf("\nIt is already a positive number!!");
+	}
+	
+	else
+	{
+		n=-(n);
+		printf("\nPositive value of negative number is = %d",n);  //code to find positive value of negtive number!!
+	}
+	return 0;
+}
