@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n,sum=0;
+	
+	//code to enter any number 
+	
+	printf("enter any number = ");
+	scanf("%d",&n);
+	
+	//code to four times a number!!
+	
+	while(n!=0)
+	{
+		sum=sum+4;
+		n--;
+	}
+	
+	printf("\n Four times of a number = %d",sum);
+	return 0;
+}
