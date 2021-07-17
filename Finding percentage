@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	float i,n,avgper=0;
+	int a[i];
+	clrscr();
+	printf("enter number of students =\n");
+	scanf("%f",&n);
+	printf("enter percentage of students in one-D-array=");
+	for(i=0;i<=n-1;i++)
+	{
+		scanf("%f",&a[i]);
+}
+     for(i=0;i<=n-1;i++)
+     {
+     	avgper=avgper+a[i]/n;
+     	
+	 }
+	 printf("average percentage=%f\n",avgper);
+	 return 0;
+}
+
+	 
