@@ -1,0 +1,24 @@
+#include<stdio.h>
+void add();
+struct complex
+{
+	int real;
+	int imag;
+}a,b,c;
+
+int main()
+{
+	add();
+	return 0;
+}
+
+void add()
+{
+	printf("Enter real and imaginary part of 1st complex number = ");
+	scanf("%d %d",&a.real,&a.imag);
+	printf("\n Enter real and imaginary part of 2nd complex number = ");
+	scanf("%d %d",&b.real,&b.imag);
+	c.real=a.real+b.real;
+	c.imag=a.imag+b.imag;
+	printf("\n Addition result = %d+%di",c.real,c.imag);
+}
