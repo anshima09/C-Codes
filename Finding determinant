@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<math.h>
+int main()               //code to find determinnat of qudratic equation!!!!!!!!!
+{
+	 int a,b,c,D;
+	 float x,y;
+	 printf("enter value of a,b, and c =");
+	 scanf("%d%d%d",&a,&b,&c);
+	 
+	 //code to find determinant!!!!!
+	 
+	 D=(b*b)-(4*a*c);
+	 printf("\nvalue of determinant=%d",D); 
+	 //code to find roots and nature of roots!!!!!
+	 
+	 if(a==0)
+	 {
+	 	printf("\nIt is not a quadratic equation!!!!!!!");
+	 }
+	 
+	 else
+	 {
+	 	if(D>0)
+	 	{
+	 		printf("\nBoth roots are real and dsitinct roots!!");
+	 		x=(-b+sqrt(D))/(2*a);
+			y=(-b-sqrt(D))/(2*a);
+			printf("\nRoots are = %f,%f",x,y);
+	}
+	if(D==0)
+	{
+		printf("\nBoth roots are equal and real roots!!");
+		x=-b/(2*a);
+		printf("\nRoots are = %f,%f",x,x);
+	}
+	if(D<0)
+	{
+		printf("\nRoots are imaginary!!");
+	}
+           }
+return 0;
+}
+
+	
+	 
+
